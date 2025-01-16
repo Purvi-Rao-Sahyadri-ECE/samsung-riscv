@@ -3,11 +3,14 @@ This is a RISC-V Internship program using VSDSquadron Mini based on RISC-V archi
 
 ## Basic Details 
 
-**Name:** Purvi G Rao  
-**College:** Sahyadri College of Engineering and Management  
-**Email ID:** purvi.ec22@sahyadri.edu.in  
+**Name:** Purvi G Rao
+-
+**College:** Sahyadri College of Engineering and Management
+-
+**Email ID:** purvi.ec22@sahyadri.edu.in
+-
 **Github Profile:** Purvi-Rao-Sahyadri_ECE  
-
+-
 
 
  
