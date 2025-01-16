@@ -13,6 +13,11 @@ This is a RISC-V Internship program using VSDSquadron Mini based on RISC-V archi
 -
 <details>
 <summary>TASK 1:Development of C-Based Lab</summary>
+<img 
+src="https://github.com/user-attachments/assets/6f272095-eb65-4f4e-afc7-4b5ffa318411" alt="Task Icon"/>
+<img
+
+
 
 </details>
 
