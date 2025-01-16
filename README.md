@@ -1,7 +1,7 @@
 # RISC-V Internship Program Powered by SAMSUNG and VSD 2025 
 This is a RISC-V Internship program using VSDSquadron Mini based on RISC-V architecture guided by Mr. Kunal Ghosh, Co-Founder of VSD.
 
-## Basic Details 
+# Basic Details 
 
 **Name:** Purvi G Rao
 -
@@ -38,8 +38,9 @@ src="https://github.com/user-attachments/assets/96f17a3f-9d16-49fb-a343-74548b35
 src="https://github.com/user-attachments/assets/54a309a2-e745-49fb-8786-bd2375f29ed7" alt="Task Icon"/>
 </details>
 <details>
-<summary>TASK 2:Ientifiaction of Risc-v instructions</summary>
-
+<summary>TASK 3:Ientifiaction of Risc-v instructions</summary>
+<img
+src="https://github.com/user-attachments/assets/4e90f51f-918e-4300-9d06-3fff9ea543eb" alt="Task Icon"/>
 </details>
 
 
