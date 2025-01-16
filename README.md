@@ -27,9 +27,19 @@ src="https://github.com/user-attachments/assets/002eb4c9-f29d-4066-ab1f-f30b37ca
 src="https://github.com/user-attachments/assets/40e870ce-ac6a-4f35-98b3-11a03f87642d" alt="Task Icon"/>
 </details>
 <details>
- <summary>TASK 2:Development of C-Based Lab</summary>
+<summary>TASK 2:Simulation with Spike</summary>
 <img 
-src="
+src="https://github.com/user-attachments/assets/b4d6bcac-d56c-4f7d-a2a3-496d9a473659" alt="Task Icon"/>
+<img
+src="https://github.com/user-attachments/assets/e957e2a1-f138-4486-b598-1b814a510673" alt="Task Icon"/>
+<img
+src="https://github.com/user-attachments/assets/96f17a3f-9d16-49fb-a343-74548b3570a6" alt="Task Icon"/>
+<img
+src="https://github.com/user-attachments/assets/54a309a2-e745-49fb-8786-bd2375f29ed7" alt="Task Icon"/>
+</details>
+<details>
+<summary>TASK 2:Ientifiaction of Risc-v instructions</summary>
+
 </details>
 
 
