@@ -5,9 +5,9 @@ This is a RISC-V Internship program using VSDSquadron Mini based on RISC-V archi
 
 **Name:** Purvi G Rao
 -
-**College:** Sahyadri College of Engineering and Management
+**College:** Sahyadri College of Engineering and Management, Adyar ,Mangaluru
 -
-**Email ID:** purvi.ec22@sahyadri.edu.in
+**Email ID:** purvi.ec22@sahyadri.edu.in or purvigrao@gmail.com
 -
 **Github Profile:** Purvi-Rao-Sahyadri_ECE  
 -
@@ -38,7 +38,7 @@ src="https://github.com/user-attachments/assets/96f17a3f-9d16-49fb-a343-74548b35
 src="https://github.com/user-attachments/assets/54a309a2-e745-49fb-8786-bd2375f29ed7" alt="Task Icon"/>
 </details>
 <details>
-<summary>TASK 3: Ientifiaction of Risc-v instructions</summary>
+<summary>TASK 3: Identification of Risc-v instructions</summary>
 <img
 src="https://github.com/user-attachments/assets/4e90f51f-918e-4300-9d06-3fff9ea543eb" alt="Task Icon"/>
 </details>
