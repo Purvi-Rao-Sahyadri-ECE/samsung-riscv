@@ -42,6 +42,31 @@ src="https://github.com/user-attachments/assets/54a309a2-e745-49fb-8786-bd2375f2
 <img
 src="https://github.com/user-attachments/assets/4e90f51f-918e-4300-9d06-3fff9ea543eb" alt="Task Icon"/>
 </details>
+<details>
+ <summary>TASK 4: Functional Simulation of RISC-V core</summary>
+ <img
+ src="https://github.com/user-attachments/assets/bf3a72af-b921-4973-8539-03046100c0b3" alt="Task Icon"/>
+<img
+ src="https://github.com/user-attachments/assets/9c79aa5c-932f-4027-88f5-fc83e667d391" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/cf3abdd1-2287-419b-9f5d-afe4056d3236" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/3e2a6bc6-6d04-493d-b96d-42df1d0d50b3" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/92ed7467-3390-4574-b59c-a080fd4f03ea" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/1b756d38-6116-4ea4-bb38-873afada51bc" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/eebff171-fece-4396-9df3-e419c4c67d05" alt="Task Icon"/>
+  <img
+ src="https://github.com/user-attachments/assets/631b4c68-62cd-4b36-90eb-c0e845dcc584" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/82bd15ad-fdb5-475f-9382-0fe30ed88a0a" alt="Task Icon"/>
+ <img
+ src="https://github.com/user-attachments/assets/eb5cb1d9-7e4b-47aa-bcc2-a6c8ff4c321c" alt="Task Icon"/>
+ <img
+ src=https://github.com/user-attachments/assets/eadf92f8-3dea-4b23-a4c1-e4db13c383a8" alt="Task Icon"/>
+</details>
 
 
 
