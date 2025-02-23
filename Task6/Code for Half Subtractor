@@ -1,1 +1,76 @@
+#include<stdio.h>
+#include<debug.h>
+#include<ch32v00x.h>
 
+// Defining the Logic Gate Functions for the half adder
+int nand(int bit1, int bit2)
+{
+    int out= bit1 &&! bit2;
+    return out;
+}
+
+int xor(int bit1, int bit2)
+{
+    int out= bit1^bit2;
+    return out;
+}
+
+// Configuring GPIO Pins
+void GPIO_Config(void)
+{
+    GPIO_InitTypeDef GPIO_InitStructure = {0}; // Structure variable used for GPIO configuration
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); // Enable clock for Port D
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // Enable clock for Port C
+    
+    // Input Pins Configuration: A and B on GPIOD Pin 1 and Pin 2
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1 | GPIO_Pin_2;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU; // Defined as Input Type (Pull-Up)
+    GPIO_Init(GPIOD, &GPIO_InitStructure);
+
+    // Output Pins Configuration: Sum on GPIOC Pin 4 and Carry on GPIOC Pin 5
+    GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4 | GPIO_Pin_5;
+    GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Defined as Output Type (Push-Pull)
+    GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // Defined Speed
+    GPIO_Init(GPIOC, &GPIO_InitStructure);
+}
+
+// Main function to implement the half adder
+int main()
+{
+    uint8_t A, B, Difference , Borrow;
+    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
+    SystemCoreClockUpdate();
+    Delay_Init();
+    GPIO_Config();
+
+    while(1)
+    {
+        // Read inputs from GPIO
+        A = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_1);
+        B = GPIO_ReadInputDataBit(GPIOD, GPIO_Pin_2);
+        
+        // Compute the half adder outputs
+        Difference = xor(A, B);     // Sum = A XOR B
+        Borrow = nand(A, B);   // Carry = A AND B
+
+        /* Output for SUM on GPIOC Pin 4 */
+        if(Difference == 0)
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_4, RESET);
+        }
+        else
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_4, SET);
+        }
+
+        /* Output for CARRY on GPIOC Pin 5 */
+        if(Borrow == 0)
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_5, RESET);
+        }
+        else
+        {
+            GPIO_WriteBit(GPIOC, GPIO_Pin_5, SET);
+        }
+    }
+}
