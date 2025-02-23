@@ -99,12 +99,13 @@ Install iverlog using commands:
  2.Components Required:
  <img 
  src="https://github.com/user-attachments/assets/70e574a4-a340-4cf2-8833-c55739ca2d41" alt="Task Icon"/>
-
+</details>
  <details>
   
  <summary>TASK 6: Project Application </summary>
  
  Code for Half Subtractor:
+ 
  ```
  #include<stdio.h>
  #include<debug.h>
