@@ -43,7 +43,28 @@ src="https://github.com/user-attachments/assets/54a309a2-e745-49fb-8786-bd2375f2
 src="https://github.com/user-attachments/assets/4e90f51f-918e-4300-9d06-3fff9ea543eb" alt="Task Icon"/>
 </details>
 <details>
- <summary>TASK 4: Functional Simulation of RISC-V core</summary>
+ <summary>TASK 4: Functional Simulation of RISC-V core
+ </summary>
+ <br>
+Steps to perform functional simulation of RISCV
+ 1. Download Files:
+Download the code from the reference github repo.
+
+2. Set Up Simulation Environment:
+Install iverlog using commands:
+
+        sudo apt install iverilog
+        sudo apt install gtkwave
+
+3. To run and simulate the verilog code, enter the following command:
+
+        iverilog -o iiitb_rv32i iiitb_rv32i.v iiitb_rv32i_tb.v
+        ./iiitb_rv32i
+
+4. To see the simulation waveform in GTKWave, enter the following command:
+
+        gtkwave iiitb_rv32i.vcd
+
  <img
  src="https://github.com/user-attachments/assets/bf3a72af-b921-4973-8539-03046100c0b3" alt="Task Icon"/>
 <img
@@ -66,7 +87,12 @@ src="https://github.com/user-attachments/assets/4e90f51f-918e-4300-9d06-3fff9ea5
  src="https://github.com/user-attachments/assets/eb5cb1d9-7e4b-47aa-bcc2-a6c8ff4c321c" alt="Task Icon"/>
  <img
  src=https://github.com/user-attachments/assets/eadf92f8-3dea-4b23-a4c1-e4db13c383a8" alt="Task Icon"/>
-</details>
+ </details>
+ <details>
+ <summary>TASK 5:Project overview-circuit diagram </summary>
+ 
+
+
 
 
 
