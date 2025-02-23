@@ -86,10 +86,27 @@ Install iverlog using commands:
  <img
  src="https://github.com/user-attachments/assets/eb5cb1d9-7e4b-47aa-bcc2-a6c8ff4c321c" alt="Task Icon"/>
  <img
- src=https://github.com/user-attachments/assets/eadf92f8-3dea-4b23-a4c1-e4db13c383a8" alt="Task Icon"/>
+ src="https://github.com/user-attachments/assets/eadf92f8-3dea-4b23-a4c1-e4db13c383a8" alt="Task Icon"/>
  </details>
  <details>
- <summary>TASK 5:Project overview-circuit diagram </summary>
+  
+ <summary>TASK 5: Project overview-circuit diagram </summary>
+  
+ 1. PINOUT diagram 
+ <img
+ src="https://github.com/user-attachments/assets/bb219ef0-06d0-46e5-9bdb-ab9493fabf2a" alt="Task Icon"/>
+ 
+ 2.Components Required:
+ <img 
+ src="https://github.com/user-attachments/assets/70e574a4-a340-4cf2-8833-c55739ca2d41" alt="Task Icon"/>
+
+ <details>
+ </summary>
+  
+ <summary>TASK 6: Project Application </summary>
+ 
+
+
  
 
 
