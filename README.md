@@ -11,6 +11,7 @@ This is a RISC-V Internship program using VSDSquadron Mini based on RISC-V archi
 -
 **Github Profile:** Purvi-Rao-Sahyadri_ECE  
 -
+**LinkedIn Profie:**
 <details>
 <summary>TASK 1: Development of C-Based Lab</summary>
 <img 
