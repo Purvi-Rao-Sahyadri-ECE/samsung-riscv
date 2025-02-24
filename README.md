@@ -9,9 +9,10 @@ This is a RISC-V Internship program using VSDSquadron Mini based on RISC-V archi
 -
 **Email ID:** purvi.ec22@sahyadri.edu.in or purvigrao@gmail.com
 -
-**Github Profile:** Purvi-Rao-Sahyadri_ECE  
+**Github Profile:** Purvi-Rao-Sahyadri-ECE 
 -
-**LinkedIn Profie:**
+**LinkedIn Profie:** purvi-g-rao
+-
 <details>
 <summary>TASK 1: Development of C-Based Lab</summary>
 <img 
