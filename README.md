@@ -113,7 +113,6 @@ Install iverlog using commands:
  #include<debug.h>
  #include<ch32v00x.h>
 
- // Defining the Logic Gate Functions for the half adder
  int nand(int bit1, int bit2)
  {
     int out= bit1 &&! bit2;
@@ -133,19 +132,19 @@ Install iverlog using commands:
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD, ENABLE); // Enable clock for Port D
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // Enable clock for Port C
     
-    // Input Pins Configuration: A and B on GPIOD Pin 1 and Pin 2
+    
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1 | GPIO_Pin_2;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU; // Defined as Input Type (Pull-Up)
     GPIO_Init(GPIOD, &GPIO_InitStructure);
 
-    // Output Pins Configuration: Sum on GPIOC Pin 4 and Carry on GPIOC Pin 5
+   
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_4 | GPIO_Pin_5;
     GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Defined as Output Type (Push-Pull)
     GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // Defined Speed
     GPIO_Init(GPIOC, &GPIO_InitStructure);
  }
 
- // Main function to implement the half adder
+
  int main()
  {
     uint8_t A, B, Difference , Borrow;
